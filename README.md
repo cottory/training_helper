@@ -42,21 +42,21 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 프로젝트 => video2jpg 속성 => C/C++ 일반 => **추가 포함 디렉토리 경로**에 아래 경로 추가
 
-C:\opencv\build\include
+<pre><code>C:\opencv\build\include</code></pre>
 *****
 
 1-4. 추가 라이브러리 디렉토리 설정
 
 프로젝트 => video2jpg 속성 => 링커 일반 => **추가 라이브러리 디렉토리 경로**에 아래 경로 추가
 
-C:\opencv\build\x64\vc14\lib
+<pre><code>C:\opencv\build\x64\vc14\lib</code></pre>
 *****
 
 1-5. 추가 종속성 설정
 
 프로젝트 => video2jpg 속성 => 링커 입력 => **추가 종속성**에 아래 파일 추가
 
-opencv_world320d.lib (디버깅 모드일 경우)
+<pre><code>opencv_world320d.lib</code></pre> (디버깅 모드의 경우)
 *****
 
 1-6. build
@@ -71,7 +71,7 @@ opencv_world320d.lib (디버깅 모드일 경우)
 
 ### step 2. opencv 파일 복사 & video 디렉토리 생성 
 
-현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug
+<pre><code>현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug</code></pre>
 
 이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 \x64\Debug 입니다.
 
@@ -97,7 +97,7 @@ opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사�
 
 2-3. 동영상 파일 넣기
 
-현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video 
+<pre><code>현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video</code></pre> 
 
 현재 경로에 동영상 파일을 넣습니다. **동영상 파일명은 공백/한글이 없어야 합니다.**
 
