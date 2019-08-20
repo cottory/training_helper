@@ -1,19 +1,19 @@
-#### training_helper  
+## training_helper  
 Program to help image training and image tagging
 
 
-## helper 1. video2jpg  
+### helper 1. video2jpg  
 동영상에서 프레임 단위로 .jpg 파일을 추출하는 프로그램
 
-## 환경
+### 환경
 - visual studio 2017 (Debug & x64 환경)
 
 - opencv 3.2.0
 
-## How to use
+### How to use
 
 
-### step 1. project build  
+#### step 1. project build  
 
 
 1-1. program download
