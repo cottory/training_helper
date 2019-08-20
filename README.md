@@ -1,8 +1,9 @@
 # training_helper  
 Program to help image training and image tagging
+- video2jpg
+- anchor box utility
 
-
-## helper 1. video2jpg  
+## 1. video2jpg  
 동영상에서 프레임 단위로 .jpg 파일을 추출하는 프로그램
 
 ### 환경
@@ -162,7 +163,7 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 
-## helper 2. anchor box utility
+## 2. anchor box utility
 이미지 태깅 작업 후, 태깅이 올바로 되었는지를 확인해주는 utility program 
 
 ### How to use
