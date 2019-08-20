@@ -100,8 +100,11 @@ opencv_world320d.dll을 포함한 8개의 파일을 현재 경로에 전부 복�
 
 3-1. list.txt 생성
 
-dir /s /b *.mp4 > list.txt
+현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video
+현재 경로에서 cmd 창을 켜고 아래 명령어를 입력해줍니다.
 
+
+<pre><code> dir /s /b *.mp4 > list.txt </code></pre>
 
 *****
 
@@ -118,12 +121,12 @@ dir /s /b *.mp4 > list.txt
 
 이로써 동영상으로부터 추출된 .jpg 파일을 얻을 수 있습니다.
 
-
+*****
+*****
+*****
+*****
 *****
 
-ㅁㄴㅇㄹ
-
-ㅁㄴㅇㄹ
 
 
 
@@ -136,6 +139,7 @@ dir /s /b *.mp4 > list.txt
 
 
 
+## 2. anchor box utility
 
-## 2. coming soon
+
 
