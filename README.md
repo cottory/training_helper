@@ -71,26 +71,25 @@ opencv_world320d.lib (디버깅 모드일 경우)
 
 ### step 2. opencv 파일 복사 & video 디렉토리 생성 
 
+**현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
 이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 \x64\Debug 입니다.
-
-**현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
 *****
 
 
 2-1. **C:\opencv\build\x64\vc14\bin의 8개 파일 모두 복사**
 
-opencv_world320d.dll을 포함한 8개의 파일을 현재 경로에 전부 복사해줍니다.
+opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사해줍니다.
 
 *****
 
 
 2-2. video directory 생성
 
-현재 경로에 새로 "video"라는 디렉토리를 만들어줍니다.
+현재 경로에 새로 "video"라는 디렉토리를 만듭니다.
 
-**디렉토리명은 꼭 video 이어야 합니다.**
+**디렉토리명은 꼭 video 여야 합니다.**
 
 *****
 
