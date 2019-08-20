@@ -16,12 +16,15 @@ data training helper
 https://opencv.org/releases/page/3/
 *****
 
-1-2.C:\ 경로에 extract 해줍니다.
+1-2.opencv 3.2.0 extract:: C:\ 경로에 extract 해줍니다.
 *****
 
-**프로젝트 설정 시 환경은 Debug모드 & x64 입니다.**
 
-1-3.추가 포함 디렉토리 설정
+**video2jpg.sln을 실행해줍니다. 프로젝트 설정 시 환경은 Debug모드 & x64 입니다.**
+*****
+
+
+1-3. 추가 포함 디렉토리 설정
 
 프로젝트 => video2jpg속성 => C/C++ 일반 => **추가 포함 디렉토리 경로**에 아래 경로 추가
 
@@ -44,13 +47,9 @@ opencv_world320d.lib
 
 1-6.build
 
-위의 단계를 그대로 따라왔다면 이제 프로젝트 빌드가 가능합니다. 
+위의 단계를 다 하셨다면 이제 프로젝트 빌드가 가능합니다. 
 *****
 
-
-2. video2jpg.sln 실행 후 프로젝트 속성 setting
-
-3.
 
 
 ## 2. coming soon
