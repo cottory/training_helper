@@ -1,4 +1,4 @@
-## training_helper  
+# training_helper  
 Program to help image training and image tagging
 
 
@@ -13,7 +13,7 @@ Program to help image training and image tagging
 ### How to use
 
 
-#### step 1. project build  
+### step 1. project build  
 
 
 1-1. program download
@@ -107,7 +107,7 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 *****
 
 
-## step 3. converting video file
+### step 3. converting video file
 
 3-1. list.txt 생성
 
@@ -162,10 +162,10 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 
-## helper 2. anchor box utility
+### helper 2. anchor box utility
 이미지 태깅 작업 후, 태깅이 올바로 되었는지를 확인해주는 utility program 
 
-## How to use
+### How to use
 
 *****
 
