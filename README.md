@@ -101,10 +101,14 @@ opencv_world320d.dll을 포함한 8개의 파일을 현재 경로에 전부 복�
 3-1. list.txt 생성
 
 **현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video**
+
 cmd 창을 켜고 아래 명령어를 입력해줍니다.
 
 
-<pre><code> dir /s /b *.mp4 > list.txt </code></pre>
+<pre><code>dir /s /b *.mp4 > list.txt</code></pre>
+
+list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니다.
+
 
 *****
 
@@ -113,10 +117,11 @@ cmd 창을 켜고 아래 명령어를 입력해줍니다.
 *****
 
 3-3. cmd창에서 command를 입력해줍니다.
+
 **현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
 
-<pre><code> video2jpg.exe list.txt </code></pre>
+<pre><code>$ video2jpg.exe list.txt</code></pre>
 
 *****
 
