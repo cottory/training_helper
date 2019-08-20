@@ -73,7 +73,7 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 <pre><code>현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug</code></pre>
 
-이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 경로 입니다.
+**이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 경로 입니다.**
 
 *****
 
@@ -116,7 +116,7 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 cmd 창을 켜고 아래 명령어를 입력해줍니다.
 
-<pre><code>dir /s /b *.mp4 > list.txt</code></pre>
+<pre><code>$ dir /s /b *.mp4 > list.txt</code></pre>
 
 list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니다.
 
