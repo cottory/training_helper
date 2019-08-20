@@ -61,9 +61,11 @@ opencv_world320d.lib
 
 ### step 2. next to build step  
 
-**step2에서 작업하는 경로는 build를 통해 생성된 \x64\Debug 입니다.**
+step2에서 작업하는 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
 **\training_helper-master\training_helper-master\video2jpg\x64\Debug**
+
+
 
 
 2-1. **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
@@ -78,6 +80,12 @@ opencv_world320d.dll을 포함한 8개의 파일을 전부 위 경로에 복사�
 \training_helper-master\training_helper-master\video2jpg\x64\Debug
 
 *****
+
+2-3. video 디렉토리에 동영상 파일을 넣어줍니다.
+
+*****
+
+
 
 
 
