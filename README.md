@@ -112,11 +112,15 @@ list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니�
 
 *****
 
-3-2. 생성된 list.txt를 video2jpg.exe가 위치하는 디렉토리에 복사해줍니다.
+3-2. list.txt 복사
+
+생성된 list.txt를 video2jpg.exe가 있는 디렉토리에 복사해줍니다.
 
 *****
 
-3-3. cmd창에서 command를 입력해줍니다.
+3-3. command 입력
+
+cmd창에서 command를 입력해줍니다.
 
 **현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
@@ -125,7 +129,9 @@ list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니�
 
 *****
 
-3-4. \video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니다. 
+3-4. 결과 확인
+
+\video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니다. 
 
 이로써 동영상으로부터 추출된 .jpg 파일을 얻을 수 있습니다.
 
