@@ -99,9 +99,8 @@ opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사�
 
 현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video 
 
-현재 경로에 동영상 파일을 넣습니다.
+현재 경로에 동영상 파일을 넣습니다. **동영상 파일명은 공백/한글이 없어야 합니다.**
 
-**동영상 파일명은 공백/한글이 없어야 합니다.**
 *****
 *****
 *****
@@ -114,6 +113,8 @@ opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사�
 3-1. list.txt 생성
 
 cmd 창을 켜고 아래 명령어를 입력해줍니다.
+
+<pre><code>dir /s /b *.mp4 > list.txt</code></pre>
 
 <pre><code>\training_helper-master\training_helper-master\video2jpg\x64\Debug\video> dir /s /b *.mp4 > list.txt</code></pre>
 
@@ -131,6 +132,7 @@ list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니�
 3-3. command 입력
 
 cmd창에서 command를 입력해줍니다.
+<pre><code>video2jpg.exe list.txt</code></pre>
 
 <pre><code>\training_helper-master\training_helper-master\video2jpg\x64\Debug> video2jpg.exe list.txt</code></pre>
 
@@ -138,7 +140,7 @@ cmd창에서 command를 입력해줍니다.
 
 3-4. 결과 확인
 
-\video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니다. 
+video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니다. 
 
 이로써 동영상으로부터 추출된 .jpg 파일을 얻을 수 있습니다.
 
