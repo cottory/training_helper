@@ -3,9 +3,10 @@ training_helper
 data training helper
 
 
-1.video2jpg  
-======
+## 1. video2jpg  
 동영상으로부터 프레임 별로 이미지를 추출하는 프로그램
+
+*****
 
 환경
 =====
@@ -63,7 +64,7 @@ opencv_world320d.lib
 
 
 
-## step 2. next to build step  
+## step 2. copy to .dll bin files & mkdir video
 
 step2에서 작업하는 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
@@ -88,6 +89,9 @@ opencv_world320d.dll을 포함한 8개의 파일을 전부 위 경로에 복사�
 2-3. video 디렉토리에 동영상 파일을 넣어줍니다.
 
 *****
+
+
+## step 3. converting video file
 
 
 
