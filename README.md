@@ -18,11 +18,13 @@ https://opencv.org/releases/page/3/
 1-2. 그리고 C:\에 압축을 extract를 해줍니다.
 
 1-3. 추가 포함 디렉토리 설정
+
 프로젝트 => video2jpg속성 => C/C++ 일반 => **추가 포함 디렉토리 경로**에 추가
 C:\opencv\build\include
 *****
 
 1-4. 추가 라이브러리 디렉토리 설정
+
 프로젝트 => video2jpg속성 => 링커 일반 => **추가 라이브러리 디렉토리 경로**에 추가
 C:\opencv\build\x64\vc14\lib
 *****
