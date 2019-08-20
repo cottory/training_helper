@@ -17,17 +17,6 @@ data training helper
 ### step 1. project build  
 
 
-
-
-
-
-
-
-
-
-
-
-
 1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
 
 https://opencv.org/releases/page/3/
@@ -69,27 +58,12 @@ opencv_world320d.lib
 위의 단계를 다 하셨다면 이제 프로젝트 빌드가 가능합니다. 
 *****
 
-
-
-
-
-
-
-
-
-
-
+*****
+*****
+*****
+*****
+*****
 ### step 2. opencv 파일 복사 & video 디렉토리 생성 
-
-
-
-
-
-
-
-
-
-
 
 
 step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성된 \x64\Debug 입니다.
