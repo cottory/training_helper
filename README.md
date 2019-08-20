@@ -12,12 +12,14 @@ data training helper
 
 1. download to .zip file & opencv 3.2.0 version install 
 
-1-1. Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
+1-1.Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
 https://opencv.org/releases/page/3/
 *****
 
-1-2. 그리고 **C:\**에 extract 해줍니다.
+1-2.C:\ 경로에 extract 해줍니다.
 *****
+
+**프로젝트 설정 시 환경은 Debug모드 & x64 입니다.**
 
 1-3.추가 포함 디렉토리 설정
 
@@ -42,6 +44,8 @@ opencv_world320d.lib
 
 1-6.build
 
+위의 단계를 그대로 따라왔다면 이제 프로젝트 빌드가 가능합니다. 
+*****
 
 
 2. video2jpg.sln 실행 후 프로젝트 속성 setting
