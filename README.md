@@ -59,10 +59,13 @@ opencv_world320d.lib
 
 ### step 2. next to build step  
 
-2-1. 아래 경로에 **C:\opencv\build\x64\vc14\bin 경로에 있는파일을 복사**
+2-1. 아래 경로에 **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
 
 \training_helper-master\training_helper-master\video2jpg\x64\Debug
-아래 경로에 C:\opencv\build\x64\vc14\bin에 있는 8개의 파일을 모두 복사해줍니다.
+
+
+opencv_world320d.dll을 포함한 8개의 파일을 전부 위 경로에 복사해줍니다.
+
 
 *****
 
