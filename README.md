@@ -17,12 +17,18 @@ data training helper
 ### step 1. project build  
 
 
-1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운 받습니다. 
+1-1. program download
+
+training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운 받습니다. 
 
 https://opencv.org/releases/page/3/
 *****
 
-1-2. C:\ 경로에 opencv 3.2.0을 extract 합니다.
+1-2. program install 
+
+C:\ 경로에 opencv 3.2.0을 extract 합니다.
+
+
 *****
 
 
@@ -73,20 +79,26 @@ opencv_world320d.lib (디버깅 모드일 경우)
 *****
 
 
-2-1. **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
+2-1. **C:\opencv\build\x64\vc14\bin의 8개 파일 모두 복사**
 
 opencv_world320d.dll을 포함한 8개의 파일을 현재 경로에 전부 복사해줍니다.
 
 *****
 
 
-2-2. **video directory 생성**
+2-2. video directory 생성
 
-현재 경로에 새로 video 디렉토리를 만들어줍니다.
+현재 경로에 새로 "video"라는 디렉토리를 만들어줍니다.
+
+**디렉토리명은 꼭 video 이어야 합니다.**
 
 *****
 
-2-3. video 디렉토리에 동영상 파일을 넣어줍니다.
+2-3. 동영상 파일 넣기
+
+현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video 
+
+현재 경로에 동영상 파일을 넣습니다.
 
 **동영상 파일명은 공백/한글이 없어야 합니다.**
 *****
