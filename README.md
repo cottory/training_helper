@@ -11,7 +11,7 @@ data training helper
 
 ## How to use
 
-### step 1. download to .zip file & opencv 3.2.0 and project build 
+### step 1. download to .zip file & opencv 3.2.0 and project build  
 
 
 
@@ -57,11 +57,11 @@ opencv_world320d.lib
 위의 단계를 다 하셨다면 이제 프로젝트 빌드가 가능합니다. 
 *****
 
-### step 2. next to build step
+### step 2. next to build step  
 
 2-1. 아래 경로에 **video 디렉토리**를 생성해줍니다.
 
-\training_helper-master\training_helper-master\***video2jpg\x64\Debug***
+\training_helper-master\training_helper-master\**video2jpg\x64\Debug**
 *****
 
 
