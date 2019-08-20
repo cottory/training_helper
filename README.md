@@ -56,7 +56,7 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 프로젝트 => video2jpg 속성 => 링커 입력 => **추가 종속성**에 아래 파일 추가
 
-<pre><code>opencv_world320d.lib</code></pre> (디버깅 모드의 경우)
+<pre><code>opencv_world320d.lib</code></pre> 
 *****
 
 1-6. build
@@ -112,11 +112,11 @@ opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사�
 
 3-1. list.txt 생성
 
+<pre><code>현재 cmd 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug\video</code></pre>
+
 cmd 창을 켜고 아래 명령어를 입력해줍니다.
 
 <pre><code>dir /s /b *.mp4 > list.txt</code></pre>
-
-<pre><code>\training_helper-master\training_helper-master\video2jpg\x64\Debug\video> dir /s /b *.mp4 > list.txt</code></pre>
 
 list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니다.
 
@@ -131,10 +131,11 @@ list.txt에는 .jpg를 만들 동영상 파일들의 경로가 들어있습니�
 
 3-3. command 입력
 
-cmd창에서 command를 입력해줍니다.
-<pre><code>video2jpg.exe list.txt</code></pre>
+<pre><code>현재 cmd 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug</code></pre>
 
-<pre><code>\training_helper-master\training_helper-master\video2jpg\x64\Debug> video2jpg.exe list.txt</code></pre>
+cmd창에서 command를 입력해줍니다.
+
+<pre><code>$ video2jpg.exe list.txt</code></pre>
 
 *****
 
