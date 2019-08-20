@@ -11,12 +11,11 @@ data training helper
 
 ## How to use
 
-### step 1. download to .zip file & opencv 3.2.0 and project build  
+step 1. project build  
+======
 
 
-
-
-1-1. Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
+1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
 
 https://opencv.org/releases/page/3/
 *****
