@@ -68,7 +68,7 @@ opencv_world320d.lib
 
 step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
-**경로:: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
+**현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
 *****
 
@@ -87,6 +87,8 @@ opencv_world320d.dll을 포함한 8개의 파일을 전부 복사해줍니다.
 *****
 
 2-3. video 디렉토리에 동영상 파일을 넣어줍니다.
+
+**동영상 파일명은 공백이 없어야 합니다.**
 *****
 *****
 *****
@@ -101,9 +103,20 @@ opencv_world320d.dll을 포함한 8개의 파일을 전부 복사해줍니다.
 dir /s /b *.mp4 > list.txt
 
 
+*****
+
+3-2. 생성된 list.txt를 video2jpg.exe가 위치하는 디렉토리에 복사해줍니다.
 
 *****
 
+3-3. command를 입력해줍니다.
+>> video2jpg list.txt
+
+*****
+
+3-4. \video 디렉토리에 프레임별로 잘린 동영상 이미지가 
+
+*****
 
 ㅁㄴㅇㄹ
 
