@@ -4,7 +4,7 @@ data training helper
 
 
 ## 1. video2jpg  
-동영상으로부터 프레임 별로 이미지를 추출하는 프로그램
+동영상에서 프레임 단위로 .jpg 파일을 추출하는 프로그램
 
 ## 환경
 - visual studio 2017 (Debug & x64 환경)
