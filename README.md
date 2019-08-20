@@ -11,7 +11,7 @@ data training helper
 
 ## How to use
 
-### step 1. download to .zip file & opencv 3.2.0 version install and project build 
+### step 1. download to .zip file & opencv 3.2.0 and project build 
 
 
 1-1. Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
@@ -57,7 +57,9 @@ opencv_world320d.lib
 
 ### step 2. next to build step
 
-2-1. 아래 경로에 video 디렉토리를 생성해줍니다.
+2-1. 아래 경로에 **video 디렉토리**를 생성해줍니다.
+
+빌드가 완료되었으면 video2jpg.sln이 있는 디렉토리에서 \x64\Debug 경로가 생겼을 것입니다.
 
 \training_helper-master\training_helper-master\video2jpg\x64\Debug
 *****
