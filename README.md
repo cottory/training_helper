@@ -1,18 +1,23 @@
-# training_helper
+training_helper  
+======
 data training helper
 
-## 1. video2jpg
+
+1.video2jpg  
+======
 동영상으로부터 프레임 별로 이미지를 추출하는 프로그램
 
-## 환경
+환경
+=====
 - visual studio 2017 (Debug & x64 환경)
 
 - opencv 3.2.0
 
-## How to use
+How to use
+=====
 
-step 1. project build  
-======
+## step 1. project build  
+
 
 
 1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
@@ -58,13 +63,13 @@ opencv_world320d.lib
 
 
 
-### step 2. next to build step  
+## step 2. next to build step  
 
 step2에서 작업하는 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
 **\training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
-
+*****
 
 
 2-1. **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
