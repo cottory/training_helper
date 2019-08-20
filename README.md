@@ -61,7 +61,7 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 1-6. build
 
-위 단계를 모두 마치셨다면 프로젝트 빌드가 가능합니다.
+위 단계를 모두 마쳤다면 프로젝트 빌드가 가능합니다.
 *****
 *****
 *****
@@ -73,16 +73,16 @@ C:\ 경로에 opencv 3.2.0을 extract 합니다.
 
 <pre><code>현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug</code></pre>
 
-이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 \x64\Debug 입니다.
+이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 경로 입니다.
 
 *****
 
 
 2-1. opencv 파일 복사
 
-**C:\opencv\build\x64\vc14\bin의 8개 파일 모두 복사**
+<pre><code>opencv 파일 경로: C:\opencv\build\x64\vc14\bin </code></pre>
 
-opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사해줍니다.
+위 경로에 있는 opencv_world320d.dll을 포함한 8개 파일을 현재 경로에 전부 복사해줍니다.
 
 *****
 
