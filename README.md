@@ -13,7 +13,18 @@ data training helper
 
 ## How to use
 
+
 ### step 1. project build  
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -60,7 +71,26 @@ opencv_world320d.lib
 
 
 
-### step 2. opencv .dll, .exe 파일 복사 및 video 디렉토리 생성 
+
+
+
+
+
+
+
+
+### step 2. opencv 파일 복사 & video 디렉토리 생성 
+
+
+
+
+
+
+
+
+
+
+
 
 step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
