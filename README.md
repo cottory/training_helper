@@ -17,12 +17,12 @@ data training helper
 ### step 1. project build  
 
 
-1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운로드 받습니다. 
+1-1. training_helper.zip 코드와 Opencv 홈페이지에서 opencv 3.2.0를 다운 받습니다. 
 
 https://opencv.org/releases/page/3/
 *****
 
-1-2. C:\ 경로에 다운받은 opencv 3.2.0을 extract 해줍니다.
+1-2. C:\ 경로에 opencv 3.2.0을 extract 합니다.
 *****
 
 
@@ -34,28 +34,28 @@ https://opencv.org/releases/page/3/
 
 1-3. 추가 포함 디렉토리 설정
 
-프로젝트 => video2jpg속성 => C/C++ 일반 => **추가 포함 디렉토리 경로**에 아래 경로 추가
+프로젝트 => video2jpg 속성 => C/C++ 일반 => **추가 포함 디렉토리 경로**에 아래 경로 추가
 
 C:\opencv\build\include
 *****
 
 1-4. 추가 라이브러리 디렉토리 설정
 
-프로젝트 => video2jpg속성 => 링커 일반 => **추가 라이브러리 디렉토리 경로**에 아래 경로 추가
+프로젝트 => video2jpg 속성 => 링커 일반 => **추가 라이브러리 디렉토리 경로**에 아래 경로 추가
 
 C:\opencv\build\x64\vc14\lib
 *****
 
 1-5. 추가 종속성 설정
 
-프로젝트 => video2jpg속성 => 링커 입력 => **추가 종속성**에 아래 파일 추가
+프로젝트 => video2jpg 속성 => 링커 입력 => **추가 종속성**에 아래 파일 추가
 
-opencv_world320d.lib
+opencv_world320d.lib (디버깅 모드일 경우)
 *****
 
 1-6. build
 
-위의 단계를 다 하셨다면 이제 프로젝트 빌드가 가능합니다. 
+위 단계를 모두 마치셨다면 프로젝트 빌드가 가능합니다.
 *****
 *****
 *****
@@ -66,7 +66,7 @@ opencv_world320d.lib
 ### step 2. opencv 파일 복사 & video 디렉토리 생성 
 
 
-step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성된 \x64\Debug 입니다.
+이제 작업하는 기본 디렉토리 경로는 video2jpg.exe 파일이 있는 \x64\Debug 입니다.
 
 **현재 경로: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
@@ -75,20 +75,20 @@ step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성�
 
 2-1. **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
 
-opencv_world320d.dll을 포함한 8개의 파일을 전부 복사해줍니다.
+opencv_world320d.dll을 포함한 8개의 파일을 현재 경로에 전부 복사해줍니다.
 
 *****
 
 
 2-2. **video directory 생성**
 
-기본 디렉토리 경로에 새로 video 디렉토리를 만들어줍니다.
+현재 경로에 새로 video 디렉토리를 만들어줍니다.
 
 *****
 
 2-3. video 디렉토리에 동영상 파일을 넣어줍니다.
 
-**동영상 파일명은 공백이 없어야 합니다.**
+**동영상 파일명은 공백/한글이 없어야 합니다.**
 *****
 *****
 *****
@@ -114,7 +114,10 @@ dir /s /b *.mp4 > list.txt
 
 *****
 
-3-4. \video 디렉토리에 프레임별로 잘린 동영상 이미지가 
+3-4. \video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니다. 
+
+이로써 동영상으로부터 추출된 .jpg 파일을 얻을 수 있습니다.
+
 
 *****
 
