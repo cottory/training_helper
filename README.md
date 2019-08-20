@@ -6,18 +6,14 @@ data training helper
 ## 1. video2jpg  
 동영상으로부터 프레임 별로 이미지를 추출하는 프로그램
 
-*****
-
-환경
-=====
+## 환경
 - visual studio 2017 (Debug & x64 환경)
 
 - opencv 3.2.0
 
-How to use
-=====
+## How to use
 
-## step 1. project build  
+### step 1. project build  
 
 
 
@@ -64,25 +60,25 @@ opencv_world320d.lib
 
 
 
-## step 2. copy to .dll bin files & mkdir video
+### step 2. opencv .dll, .exe 파일 복사 및 video 디렉토리 생성 
 
-step2에서 작업하는 경로는 build를 통해 생성된 \x64\Debug 입니다.
+step 2에서 작업하는 기본 디렉토리 경로는 build를 통해 생성된 \x64\Debug 입니다.
 
-**\training_helper-master\training_helper-master\video2jpg\x64\Debug**
+**경로:: \training_helper-master\training_helper-master\video2jpg\x64\Debug**
 
 *****
 
 
 2-1. **C:\opencv\build\x64\vc14\bin 에 있는 8개의 파일을 모두 복사**
 
-opencv_world320d.dll을 포함한 8개의 파일을 전부 위 경로에 복사해줍니다.
+opencv_world320d.dll을 포함한 8개의 파일을 전부 복사해줍니다.
 
 *****
 
 
 2-2. **video directory 생성**
 
-\training_helper-master\training_helper-master\video2jpg\x64\Debug
+기본 디렉토리 경로에 새로 video 디렉토리를 만들어줍니다.
 
 *****
 
@@ -92,6 +88,11 @@ opencv_world320d.dll을 포함한 8개의 파일을 전부 위 경로에 복사�
 
 
 ## step 3. converting video file
+
+
+ㅁㄴㅇㄹ
+
+ㅁㄴㅇㄹ
 
 
 
