@@ -1,7 +1,7 @@
 # training_helper  
 Program to help image training and image tagging
 - video2jpg
-- anchor box utility
+- anchor box checker
 
 ## 1. video2jpg  
 동영상에서 프레임 단위로 .jpg 파일을 추출하는 프로그램
