@@ -185,9 +185,10 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 2. yolo_mark.dll 파일이 있는 디렉토리 경로에 anchorboxChecker.exe를 복사해줍니다.
 
-~
+~~~
 \Yolo_mark-master\x64\Release
-~
+~~~
+
 3. 사용
 
 
