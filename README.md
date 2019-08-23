@@ -186,27 +186,24 @@ anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 �
 
 
 
-1. check: PIVOT값과 다르게 태깅 되어 있는 모든 txt 파일명을 출력합니다.
+* check: PIVOT값과 다르게 태깅 되어 있는 모든 txt 파일명을 출력합니다.
+`초기 PIVOT 값은 0으로, 기본적인 check 기능은 태깅되지 않은 txt 파일을 출력합니다.`
 
-
-<pre><code>> check 
-# 초기 PIVOT 값은 0으로, 기본적인 check 기능은 태깅되지 않은 txt 파일을 출력합니다.
-
-</code></pre> 
+<pre><code>> check </code></pre> 
 *****
-2. delete: 태깅이 되어 있는 특정 번호 anchor box를 삭제합니다.
+* delete: 태깅이 되어 있는 특정 번호 anchor box를 삭제합니다.
 
 <pre><code>> delete anchorbox_Number </code></pre> 
 *****
-3. update: PIVOT값을 갱신합니다.
+* update: PIVOT값을 갱신합니다.
 
 <pre><code>> update PIVOT_NUMBER </code></pre> 
 *****
-4. print: 현재 설정된 PIVOT값을 출력합니다.
+* print: 현재 설정된 PIVOT값을 출력합니다.
 
 <pre><code>> print </code></pre> 
 *****
-5. exit: 프로그램 종료
+* exit: 프로그램 종료
 
 <pre><code>> exit</code></pre> 
 *****
