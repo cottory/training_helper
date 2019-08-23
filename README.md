@@ -189,14 +189,24 @@ anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 �
 
 1. check: pivot anchor box number와 개수가 다르게 태깅이 되어 있는 모든 txt 파일명을 출력합니다.
 
+<pre><code>> check </code></pre> 
+*****
 2. delete: 태깅이 되어 있는 특정 번호 anchor box를 삭제합니다.
 
+<pre><code>> delete anchorbox_Number </code></pre> 
+*****
 3. update: pivot anchor box number를 갱신합니다.
 
+<pre><code>> update pivot_anchorbox_Number</code></pre> 
+*****
 4. print: 현재 설정된 pivot anchor box number를 출력합니다.
 
+<pre><code>> print </code></pre> 
+*****
 5. exit: 프로그램 종료
 
+<pre><code>> exit</code></pre> 
+*****
 
 *****
 
