@@ -196,13 +196,9 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 **기본 기능은 두 가지**
 
-1. check:
+1. **check:** PIVOT값과 txt파일에 태깅된 anchor box 개수 비교
 
-PIVOT값과 txt파일에 태깅된 anchor box 개수 비교
-
-2. delete: 
-
-특정 번호의 anchor box 모두 삭제
+2. **delete:** 특정 번호의 anchor box 모두 삭제
 
 anchorboxChecker는 아래 디렉토리 경로에 있는 모든 txt 파일을 대상으로 동작합니다.
 ~~~
