@@ -186,7 +186,8 @@ anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 �
 
 
 
-* check: PIVOT값과 다르게 태깅 되어 있는 모든 txt 파일명을 출력합니다.
+* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다.
+
 `초기 PIVOT 값은 0으로, 기본적인 check 기능은 태깅되지 않은 txt 파일을 출력합니다.`
 
 <pre><code>> check </code></pre> 
