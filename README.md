@@ -175,21 +175,25 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 *****
 이 프로그램은 Yolo_mark-master를 기반으로 동작합니다.
 
-1. yolo_mark.dll 파일이 있는 디렉토리에 anchorboxChecker.exe를 복사해줍니다.
+#### 현재 디렉토리 경로: \Yolo_mark-master\x64\Release
 
-2. 태깅을 완료하면 \data\img 디렉토리에 태깅한 .txt 파일이 있습니다.
+1. 태깅을 완료하면 \Yolo_mark-master\x64\Release\data\img 경로에 태깅한 .txt 파일이 있습니다.
+
+2. yolo_mark.dll 파일이 있는 디렉토리 경로에 anchorboxChecker.exe를 복사해줍니다.
+
+`\Yolo_mark-master\x64\Release`
+
+3. 사용
 
 
 
 ### 기능
+* anchorboxChecker는 \Yolo_mark-master\x64\Release\data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
+* 
 *****
 
-anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
-**(이하 PIVOT)**
-*****
 
-
-* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다. **초기 PIVOT값 = 0**
+* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다. 초기 PIVOT값 == 0
 
 `PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력합니다.`
 
