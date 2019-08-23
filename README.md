@@ -166,8 +166,10 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 ## 2. anchorboxChecker
 이미지 태깅 작업 후, 태깅이 바르게 되었는지 확인하는 유틸리티 프로그램
 
-pivot anchor box number: anchor box를 검사하는 기준 값 (default = 0)
-**(이하 PIVOT)**
+### 환경
+- visual studio 2017 (Debug & x64 환경)
+
+- opencv 3.2.0
 
 ### How to use
 *****
@@ -183,7 +185,8 @@ pivot anchor box number: anchor box를 검사하는 기준 값 (default = 0)
 *****
 
 anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
-
+**(이하 PIVOT)**
+*****
 
 
 * check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다.
