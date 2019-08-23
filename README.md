@@ -164,7 +164,7 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 ## 2. anchorboxChecker
-이미지 태깅 작업 후, 태깅이 바르게 되었는지 확인하는 유틸리티 프로그램
+이미지 태깅 작업 후, 태깅이 올바르게 되었는지 확인하는 유틸리티 프로그램
 
 ### 환경
 - visual studio 2017 (Debug & x64 환경)
@@ -189,9 +189,9 @@ anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 �
 *****
 
 
-* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다.
+* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다. **초기 PIVOT값 = 0**
 
-`초기 PIVOT 값은 0으로, 기본적인 check 기능은 태깅되지 않은 txt 파일을 출력합니다.`
+`PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력합니다.`
 
 <pre><code>> check </code></pre> 
 *****
