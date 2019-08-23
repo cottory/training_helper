@@ -191,23 +191,23 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 
-### 기능
+### 기능(4가지)
 
 **기본 기능은 PIVOT값과 txt파일에 태깅되어 있는 anchor box 개수를 비교합니다.**
 
-anchorboxChecker는 아래 디렉토리 경로 내에 있는 모든 txt 파일을 대상으로 동작합니다.
+anchorboxChecker는 아래 디렉토리 경로에 있는 모든 txt 파일을 대상으로 동작합니다.
 ~~~
 \Yolo_mark-master\x64\Release\data\img
 ~~~
 *****
 
-* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력. 초기 PIVOT값 == 0
+* check: PIVOT값과 다르게 태깅된 모든 txt 파일명을 출력.
 
-`PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력.`
+`The default pivot value is 0. PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력.`
 
 <pre><code>> check </code></pre> 
 
-* delete: txt파일에 태깅 되어 있는 특정 번호 anchor box를 삭제.
+* delete: txt파일에 태깅된 특정 번호 anchor box를 삭제.
 
 <pre><code>> delete anchorbox_Number </code></pre> 
 
@@ -221,6 +221,4 @@ anchorboxChecker는 아래 디렉토리 경로 내에 있는 모든 txt 파일�
 
 * exit: 프로그램 종료.
 
-<pre><code>> exit</code></pre> 
-
-
+<pre><code>> exit</code></pre>
