@@ -163,10 +163,40 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 
-## 2. anchor box utility
-이미지 태깅 작업 후, 태깅이 올바로 되었는지를 확인해주는 utility program 
+## 2. anchorboxChecker
+이미지 태깅 작업 후, 태깅이 올바로 되었는지를 확인해주는 유틸리티 프로그램
+
+pivot anchor box number: anchor box를 검사하는 기준 값 (default = 0)
+
+pivot anchor box number의 기본값은 0으로, 기본 기능은 디렉토리 내 txt 파일 중 태깅이 되지 않은 이미지파일을 찾아 냅니다. 
+
+
+
+
 
 ### How to use
+이 프로그램은 Yolo_mark-master를 기반으로 동작합니다.
+
+1. yolo_mark.dll 파일이 있는 디렉토리에 anchorboxChecker.exe를 복사해줍니다.
+
+2. 태깅을 완료하면 \data\img 디렉토리에 태깅한 .txt 파일이 있습니다.
+
+3. 
+
+### 기능
+
+anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
+
+1. check: pivot anchor box number와 개수가 다르게 태깅이 되어 있는 모든 txt 파일명을 출력합니다.
+
+2. delete: 태깅이 되어 있는 특정 번호 anchor box를 삭제합니다.
+
+3. update: pivot anchor box number를 갱신합니다.
+
+4. print: 현재 설정된 pivot anchor box number를 출력합니다.
+
+5. exit: 프로그램 종료
+
 
 *****
 
