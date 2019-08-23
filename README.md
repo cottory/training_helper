@@ -193,11 +193,12 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 ### 기능
 
+**기본 기능은 PIVOT값과 txt파일에 태깅되어 있는 anchor box 개수를 비교합니다.**
+
 anchorboxChecker는 아래 디렉토리 경로 내에 있는 모든 txt 파일을 대상으로 동작합니다.
 ~~~
 \Yolo_mark-master\x64\Release\data\img
 ~~~
-기본 기능은 PIVOT값과 txt파일에 태깅되어 있는 anchor box 개수를 비교합니다.
 *****
 
 * check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력. 초기 PIVOT값 == 0
