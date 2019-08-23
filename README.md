@@ -187,7 +187,10 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 \Yolo_mark-master\x64\Release
 ~~~
 
-3. 이제부터 anchorboxChecker를 사용할 수 있습니다. 
+3. 실행
+~~~
+> anchorboxChecker
+~~~
 
 *****
 *****
@@ -206,6 +209,7 @@ anchorboxChecker는 아래 디렉토리 경로에 있는 모든 txt 파일을 �
 * check: PIVOT값과 다르게 태깅된 모든 txt 파일명을 출력.
 
 `The default pivot value is 0.` 
+
 `PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력.`
 
 <pre><code>> check </code></pre> 
