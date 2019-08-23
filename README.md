@@ -177,12 +177,17 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 #### 현재 디렉토리 경로: \Yolo_mark-master\x64\Release
 
-1. 태깅을 완료하면 \Yolo_mark-master\x64\Release\data\img 경로에 태깅한 .txt 파일이 있습니다.
+1. 태깅을 완료하면 아래 디렉토리 경로에 태깅한 .txt 파일이 있습니다.
+
+~~~
+\Yolo_mark-master\x64\Release\data\img
+~~~
 
 2. yolo_mark.dll 파일이 있는 디렉토리 경로에 anchorboxChecker.exe를 복사해줍니다.
 
-`\Yolo_mark-master\x64\Release`
-
+~
+\Yolo_mark-master\x64\Release
+~
 3. 사용
 
 
