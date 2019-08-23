@@ -164,7 +164,7 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 
 
 ## 2. anchorboxChecker
-이미지 태깅 작업 후, 태깅이 올바르게 되었는지 확인하는 유틸리티 프로그램
+이미지 태깅 작업 후, 태깅이 올바르게 되었는지 확인하는 프로그램
 
 ### 환경
 - visual studio 2017 (Debug & x64 환경)
@@ -174,8 +174,6 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 ### How to use
 *****
 이 프로그램은 Yolo_mark-master를 기반으로 동작합니다.
-
-#### 현재 디렉토리 경로: \Yolo_mark-master\x64\Release
 
 1. 태깅을 완료하면 아래 디렉토리 경로에 태깅한 .txt 파일이 있습니다.
 
@@ -189,35 +187,39 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 \Yolo_mark-master\x64\Release
 ~~~
 
-3. 사용
+3. 아래에 제공되는 기능을 참고해서 사용하면 됩니다.
 
 
 
 ### 기능
-* anchorboxChecker는 \Yolo_mark-master\x64\Release\data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
-* 
+
+* anchorboxChecker는 아래 디렉토리 경로 내에 있는 모든 txt 파일을 대상으로 동작합니다.
+~~~
+\Yolo_mark-master\x64\Release\data\img
+~~~
+* 기본 기능은 PIVOT값과 txt파일에 태깅되어 있는 anchor box 개수를 비교합니다.
 *****
 
 
-* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력합니다. 초기 PIVOT값 == 0
+* check: PIVOT값과 다르게 태깅 되어있는 모든 txt 파일명을 출력. 초기 PIVOT값 == 0
 
-`PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력합니다.`
+`PIVOT 값이 0인 경우, 태깅되지 않은 모든 txt 파일명을 출력.`
 
 <pre><code>> check </code></pre> 
 *****
-* delete: 태깅이 되어 있는 특정 번호 anchor box를 삭제합니다.
+* delete: txt파일에 태깅 되어 있는 특정 번호 anchor box를 삭제.
 
 <pre><code>> delete anchorbox_Number </code></pre> 
 *****
-* update: PIVOT값을 갱신합니다.
+* update: PIVOT값을 갱신.
 
 <pre><code>> update PIVOT_NUMBER </code></pre> 
 *****
-* print: 현재 설정된 PIVOT값을 출력합니다.
+* print: 현재 설정된 PIVOT값을 출력.
 
 <pre><code>> print </code></pre> 
 *****
-* exit: 프로그램 종료
+* exit: 프로그램 종료.
 
 <pre><code>> exit</code></pre> 
 *****
