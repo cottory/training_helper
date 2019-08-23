@@ -167,9 +167,9 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 이미지 태깅 작업 후, 태깅이 올바르게 되었는지 확인하는 프로그램
 
 ### 환경
-- visual studio 2017 (Debug & x64 환경)
+- visual studio code
 
-- opencv 3.2.0
+- minGW
 
 ### How to use
 *****
@@ -188,6 +188,7 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 ~~~
 
 3. 실행
+`현재경로: \Yolo_mark-master\x64\Release`
 ~~~
 > anchorboxChecker
 ~~~
