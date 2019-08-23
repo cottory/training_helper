@@ -170,7 +170,8 @@ pivot anchor box number: anchor box를 검사하는 기준 값 (default = 0)
 **(이하 PIVOT)**
 
 ### How to use
-**이 프로그램은 Yolo_mark-master를 기반으로 동작합니다.**
+*****
+이 프로그램은 Yolo_mark-master를 기반으로 동작합니다.
 
 1. yolo_mark.dll 파일이 있는 디렉토리에 anchorboxChecker.exe를 복사해줍니다.
 
@@ -179,12 +180,15 @@ pivot anchor box number: anchor box를 검사하는 기준 값 (default = 0)
 
 
 ### 기능
+*****
 
 anchorboxChecker는 \data\img 디렉토리 내에 있는 모든 txt 파일을 대상으로 동작합니다.
 
+
+
 1. check: PIVOT값과 다르게 태깅 되어 있는 모든 txt 파일명을 출력합니다.
 
-**초기 PIVOT은 0으로, 기본적인 check의 기능은 태깅되지 않은 txt 파일을 출력합니다.**
+<u>초기 PIVOT 값은 0으로, 기본적인 check 기능은 태깅되지 않은 txt 파일을 출력합니다.</u>
 
 <pre><code>> check </code></pre> 
 *****
