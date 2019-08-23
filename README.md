@@ -169,7 +169,7 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 ### 환경
 - visual studio code
 
-- minGW
+- g++ (MinGW.org GCC-6.3.0-1) 6.3.0
 
 ### How to use
 *****
@@ -188,9 +188,10 @@ video 디렉토리에 동영상 파일명과 동일한 디렉토리가 생깁니
 ~~~
 
 3. 실행
+
 `현재경로: \Yolo_mark-master\x64\Release`
 ~~~
-> anchorboxChecker
+> anchorboxChecker.exe
 ~~~
 
 *****
